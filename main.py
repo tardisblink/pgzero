@@ -18,7 +18,8 @@ STATE_EXIT = "exit"
 
 # Valores padrão
 game_state = STATE_MENU
-sound_enabled = True
+sound_enabled = False
+music_playing = False
 frame_counter = 0
 mouse_pos = (0,0)
 closing_countdown = 3
@@ -27,7 +28,7 @@ character = None
 # Botões do menu principal
 BUTTONS_MENU = [
     {"label": "Clique aqui para Iniciar o Jogo", "rect": Rect((WIDTH//2 - 200, 200), (400, 50)), "icon": "button-start", "action": "start"},
-    {"label": "Sons/Música: ON", "rect": Rect((WIDTH//2 - 150, 290), (300, 45)), "icon": "audio-on", "action": "toggle_sound"},
+    {"label": "Sons/Música: OFF", "rect": Rect((WIDTH//2 - 150, 290), (300, 45)), "icon": "audio-off", "action": "toggle_sound"},
     {"label": "Fechar o Jogo", "rect": Rect((WIDTH//2 - 150, 350), (300, 45)), "icon": "door", "action": "exit"},
 ]
 hover_states_menu = [False] * len(BUTTONS_MENU)
@@ -154,6 +155,17 @@ def draw():
         )
 
 
+def play_music():
+    global music_playing
+    if not music_playing:
+        sounds.music.play(loops=-1)
+        music_playing = True
+
+def stop_music():
+    global music_playing
+    music_playing = False
+    sounds.music.stop()
+
 def countdown_step():
     global closing_countdown
     closing_countdown -=1
@@ -171,8 +183,13 @@ def on_mouse_down(pos):
             if button_menu["rect"].collidepoint(pos):
                 if sound_enabled:
                     sounds.click.play()
+                    play_music()
                 if button_menu["action"] == "toggle_sound":
                     sound_enabled = not sound_enabled
+                    if sound_enabled:
+                        play_music()
+                    else:
+                        stop_music()
                 elif button_menu["action"] == "start":
                     game_state = STATE_SELECTING
                 elif button_menu["action"] == "exit":
