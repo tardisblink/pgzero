@@ -154,7 +154,6 @@ def draw():
             color="white",
         )
 
-
 def play_music():
     global music_playing
     if not music_playing:

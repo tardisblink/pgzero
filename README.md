@@ -29,3 +29,22 @@ cd pgzero
 ```
 pip install -r requirements.txt
 ```
+Ou
+```
+pip install pgzero
+```
+**4 -** Execute o código
+```
+pgzrun main.py
+```
+
+# Como Jogar/Capturas de Tela
+
+No menu principal, clique em "Clique aqui para Iniciar o Jogo" 
+OBS: Você pode também nessa mesma tela ativar e desativar música e sons ou sair do jogo
+
+<img src="images/screenshots/print_1.png" alt="Tela Menu" width="500"/>
+
+Após isso, selecione com qual personagem deseja jogar
+
+<img src="images/screenshots/print_2.png" alt="Tela Seleção de Personagens" width="500"/>
