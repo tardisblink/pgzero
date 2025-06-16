@@ -47,11 +47,11 @@ pgzrun main.py
 No menu principal, clique em "Clique aqui para Iniciar o Jogo" 
 OBS: Você pode também nessa mesma tela ativar e desativar música e sons ou sair do jogo
 
-<img src="images/screenshots/print_1.png" alt="Tela Menu" width="500"/>
+<img src="images/screenshots/print_1.png" alt="Tela Menu" width="500"/> <br>
 
 Após isso, selecione com qual personagem deseja jogar <br>
 
-<img src="images/screenshots/print_2.png" alt="Tela Seleção de Personagens" width="500"/>
+<img src="images/screenshots/print_2.png" alt="Tela Seleção de Personagens" width="500"/> <br>
 
 O objetivo do jogo é chegar até a bandeira verde, desviando ou matando os inimigos <br>
 
