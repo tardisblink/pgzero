@@ -44,18 +44,18 @@ pgzrun main.py
 
 # Como Jogar/Capturas de Tela
 
-No menu principal, clique em "Clique aqui para Iniciar o Jogo" 
+No menu principal, clique em "Clique aqui para Iniciar o Jogo"  
 OBS: Você pode também nessa mesma tela ativar e desativar música e sons ou sair do jogo
 
 <img src="images/screenshots/print_1.png" alt="Tela Menu" width="500"/> <br>
 
-Após isso, selecione com qual personagem deseja jogar <br>
+Após isso, selecione com qual personagem deseja jogar  
 
-<img src="images/screenshots/print_2.png" alt="Tela Seleção de Personagens" width="500"/> <br>
+<img src="images/screenshots/print_2.png" alt="Tela Seleção de Personagens" width="500"/> <br>
 
-O objetivo do jogo é chegar até a bandeira verde, desviando ou matando os inimigos <br>
+O objetivo do jogo é chegar até a bandeira verde, desviando ou matando os inimigos  
 
-<img src="images/screenshots/print_3.png" alt="Tela do jogo" width="500"/> <br>
+<img src="images/screenshots/print_3.png" alt="Tela do jogo" width="500"/> <br>
 
 As seguintes teclas poderão ser usadas para controlar o jogo:
 
