@@ -49,13 +49,13 @@ OBS: Você pode também nessa mesma tela ativar e desativar música e sons ou sa
 
 <img src="images/screenshots/print_1.png" alt="Tela Menu" width="500"/>
 
-Após isso, selecione com qual personagem deseja jogar
+Após isso, selecione com qual personagem deseja jogar <br>
 
 <img src="images/screenshots/print_2.png" alt="Tela Seleção de Personagens" width="500"/>
 
-O objetivo do jogo é chegar até a bandeira verde, desviando ou matando os inimigos
+O objetivo do jogo é chegar até a bandeira verde, desviando ou matando os inimigos <br>
 
-<img src="images/screenshots/print_2.png" alt="Tela do jogo" width="500"/>
+<img src="images/screenshots/print_3.png" alt="Tela do jogo" width="500"/> <br>
 
 As seguintes teclas poderão ser usadas para controlar o jogo:
 
