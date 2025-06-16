@@ -7,7 +7,7 @@
 
 **PgZero** - Para lógica e interface gráfica
 
-**random** - Para movimentação dos inimigos (insetos)
+**random** - Para movimentação das bolas de fogo
 
 **math** - Para funções envolvendo cálculo
 
@@ -59,11 +59,11 @@ O objetivo do jogo é chegar até a bandeira verde, desviando ou matando os inim
 
 As seguintes teclas poderão ser usadas para controlar o jogo:
 
-ESPAÇO: Atirar bolas de fogo
-SETA PARA CIMA: Pula
-SETA PARA BAIXO: Abaixa
-SETA PARA DIREITA: Anda para frente (ou corre ao pressionar)
-SETA PARA ESQUERDA: Anda para trás (ou corre ao pressionar)
+ESPAÇO: Atirar bolas de fogo <br>
+SETA PARA CIMA: Pula <br>
+SETA PARA BAIXO: Abaixa <br>
+SETA PARA DIREITA: Anda para frente (ou corre ao pressionar) <br>
+SETA PARA ESQUERDA: Anda para trás (ou corre ao pressionar) <br>
 
 
 # Referências/Assets/Links
