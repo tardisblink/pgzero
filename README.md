@@ -1,6 +1,6 @@
 # PgZero - Aliens VS Insects 
 
-## Jogo desenvolvido como desafio de Python para a Kodland utilizando a biblioteca PgZero
+## Jogo desenvolvido com Python para utilizando a biblioteca PgZero
 
 ### Tecnologias e Bibliotecas Utilizadas:
 **Python 3.12**
@@ -12,8 +12,6 @@
 **math** - Para funções envolvendo cálculo
 
 **pygame.Rect** - Para identificar colisões entre personagens x inimigos
-
-**NENHUMA OUTRA BIBLIOTECA FOI USADA, CONFORME REQUISITOS DA TAREFA**
 
 # Como rodar o Jogo
 
