@@ -64,7 +64,7 @@ SETA PARA DIREITA: Anda para frente (ou corre ao pressionar) <br>
 SETA PARA ESQUERDA: Anda para trás (ou corre ao pressionar) <br>
 
 
-# Referências/Assets/Links
+# 🔗 Referências/Assets/Links
 
 https://pygame-zero.readthedocs.io/en/stable/
 https://kenney.nl/assets/game-icons
