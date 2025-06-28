@@ -1,4 +1,4 @@
-# PgZero - Aliens VS Insects 
+# 🎮 PgZero - Aliens VS Insects 
 
 ## Jogo desenvolvido com Python para utilizando a biblioteca PgZero
 
@@ -13,7 +13,7 @@
 
 **pygame.Rect** - Para identificar colisões entre personagens x inimigos
 
-# Como rodar o Jogo
+# 👩🏽‍💻 Como rodar o Jogo
 
 **1 -** Antes de tudo você precisa ter o python instalado
 ```
@@ -40,7 +40,7 @@ pip install pgzero
 pgzrun main.py
 ```
 
-# Como Jogar/Capturas de Tela
+# 💻 Como Jogar/Capturas de Tela
 
 No menu principal, clique em "Clique aqui para Iniciar o Jogo"  
 OBS: Você pode também nessa mesma tela ativar e desativar música e sons ou sair do jogo
